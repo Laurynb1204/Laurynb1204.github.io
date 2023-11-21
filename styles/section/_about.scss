@@ -1,0 +1,99 @@
+.ThisIsMe{
+
+    
+    position: relative;
+    margin-top: 90px;
+    //max-width: 80%;
+    //margin-top: 80px;
+    display:flex;
+    justify-content: end;
+    top:30px;
+    right: 200px;
+    z-index: 4;
+   
+}
+
+
+
+.background_001{  
+    position: relative;
+    display:flex;
+    justify-content: end;
+   
+    //right: 200px;
+
+    top:-480px;
+    left:-180px;
+    z-index: 3;
+    //margin-bottom: 30px;
+}
+
+
+.background_002{  
+    position: relative;
+    display:flex;
+    justify-content: end;
+   
+    //right: 200px;
+
+    top:-980px;
+    left:-160px;
+    z-index: 2;
+    //margin-bottom: 30px;
+}
+
+
+
+.background_003{  
+    position: relative;
+    display:flex;
+    justify-content: end;
+   
+    //right: 200px;
+
+    top:-1480px;
+    left:-140px;
+    z-index: 1;
+    //margin-bottom: 30px;
+}
+
+
+.background_004{  
+    position: relative;
+    display:flex;
+    justify-content: end;
+   
+    //right: 200px;
+
+    top:-1975px;
+    left:-120px;
+    z-index: 0;
+    //margin-bottom: 30px;
+}
+
+
+.Search{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 160px;
+    right:250px;
+    z-index: 5;
+    //justify-content: center;
+    //align-content:center;
+    //bottom:5000px;
+}
+
+
+.Info{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 1000px;
+    right:280px;
+    z-index: 5;
+
+    //justify-content: center;
+    //align-content:center;
+    //bottom:5000px;
+}

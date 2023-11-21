@@ -1,0 +1,41 @@
+
+.VideoPlayer{
+
+    
+    position: relative;
+    margin: auto;
+    max-width: 80%;
+    margin-top: 80px;
+   
+}
+
+  
+.video{
+    position: absolute;
+    width: 100%;
+    //margin-top: 40px;
+    z-index: 2;
+    right:40px
+    
+
+}
+
+.backgroundVid{  
+    position: relative;
+    width: 100%;
+    top: 15px;
+    left: 15px;
+    z-index: 0;
+    //margin-bottom: 30px;
+}
+
+.WhoAmI{
+    top: -680px;
+    left: 900px;
+    position: relative;
+    width: 100%;
+    //border: 80px solid purple;
+    z-index: 1;
+  
+}
+
