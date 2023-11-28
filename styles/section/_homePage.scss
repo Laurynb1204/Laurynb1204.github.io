@@ -1,11 +1,15 @@
+@include respond('1440px'){
+
 
 .VideoPlayer{
 
     
     position: relative;
-    margin: auto;
+    left: 200px;
+    //margin-right: auto;
+   
     max-width: 80%;
-    margin-top: 80px;
+    margin-top: 200px;
    
 }
 
@@ -23,19 +27,44 @@
 .backgroundVid{  
     position: relative;
     width: 100%;
-    top: 15px;
-    left: 15px;
+    top: 10px;
+    //left: 5px;
     z-index: 0;
     //margin-bottom: 30px;
+    left: -20px;
 }
 
 .WhoAmI{
-    top: -680px;
-    left: 900px;
-    position: relative;
-    width: 100%;
+    bottom: 530px;
+    left: 750px;
+    position: absolute;
+    width: 40%;
     //border: 80px solid purple;
-    z-index: 1;
+    z-index: +2;
   
 }
 
+.Video_itself{
+    position: absolute;
+    top:50px;
+
+
+}
+
+.star{
+    position: absolute;
+    width: 20%;
+    left: -50px;
+    top: 350px;
+    z-index: 8;
+}
+
+.planet{
+    position: absolute;
+    width: 20%;
+    z-index: 9;
+    top: 875px;
+    left: 1130px;
+}
+
+}
