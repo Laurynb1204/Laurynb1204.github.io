@@ -1,4 +1,11 @@
 @include respond('1440px'){
+
+    @font-face {
+    
+        src: url(font/zig_____.ttf);
+        font-family:zig;
+    }
+
 .folders{
     
     display: flex;
@@ -31,17 +38,14 @@
     }
 }
 
-.font{
-    src:url(vt323/VT323-Regular.ttf);
-    font-family: myText; 
-}
+
 
 .Home_text{
     display:block;
     font-size: 17px;
     margin-top: 10px;
     text-align: center;
-    //font-family: myText; not working
+    font-family:zig;
    
 }
 

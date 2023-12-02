@@ -1,233 +1,233 @@
 @include respond('1440px'){
-.content{
-    margin-top: 50px;
-    padding-bottom: 400px;
-    position: relative;
-}
-
-
-.window{
-    position: relative;
-}
-
-
-.background{
-    position:absolute;
-    //top:0px;
-    //bottom: 130px;
-    left:0px;
-    z-index: 0;
-
-
-}
-
-.text-cont{
-
-    position: relative;
-
-}
-
-
-.Pic-wrapper{
-    // padding-top: 50px;
-    position: absolute;
-     top:55px;
-     right: 5px;
-    
-    // max-width: 85%;
-    //height: 90%;
-}
-
-
-.Text-wrapper{
-    padding-top: 100px;
-    position: absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-}
-
-.ThisIsMe{
-
-    
-    position: relative;// the parent of the objects need to be relative
-    //margin-top: 90px;
-    //max-width: 80%;
-    //margin-top: 80px;
-    right: 10%;
-    display:flex;
-    justify-content: end;
-    top:30px;
-    //right: 200px;
-    z-index: 4;
-   
-}
-
-
-
-.Search{
-    
-    position: absolute; //absolute can move anywhere 
-  
-    justify-content: center;
-    top: 0px;
-    left:80px;
-    width: 35%;
-    z-index: 5;
-    //display: none;
-    //justify-content: center;
-    //align-content:center;
-    //bottom:5000px;
-}
-
-
-.Info{
-    
-    position: absolute;
-    //display: flex;
-    //justify-content: center;
-    top: 80%;
-    left:300px;
-    z-index: 5;
-    width: 35%;
-    
-    //justify-content: center;
-    //align-content:center;
-    //bottom:5000px;
-}
-
-// .background{
-//     position:absolute;
-//     top:100px;
-//     left: 620px;
-//     //right:150px;
-//     z-index: 3;
-
-
-// }
-
- .background_001{  
-    position:absolute;
-    top:100px;
-    left: 510px;
-    //right:150px;
-    z-index: 2;
-
-
-  }
-
-
- .background_002{  
-    position:absolute;
-    top:120px;
-    left: 530px;
-    //right:150px;
-    z-index: 1;
-
-
- }
-
-
-
- .background_003{  
-    position:absolute;
-    top:140px;
-    left: 550px;
-    //right:150px;
-    z-index: 0;
-
-
- }
-
-
-.background_004{  
-
-    position:absolute;
-    top:160px;
-    left: 570px;
-    //right:150px;
-    z-index: -1;
-
-}
-.footer{
-    position: relative;
-    bottom: 0px;
-}
-
-.aboutPage_Text{
-    //position: absolute;
-    color: purple;
-    text-align: center;
-    font-size: 30px;
-
-    &:hover,&:focus{
-     color: orange;  
+    .content{
+        margin-top: 50px;
+        padding-bottom: 400px;
+        position: relative;
     }
-}
-
-.save_001{
     
-    left: 500px;
+    
+    .window{
+        position: relative;
+    }
+    
+    
+    .background{
+        position:absolute;
+        //top:0px;
+        //bottom: 130px;
+        left:0px;
+        z-index: 0;
+    
+    
+    }
+    
+    .text-cont{
+    
+        position: relative;
+    
+    }
+    
+    
+    .Pic-wrapper{
+        // padding-top: 50px;
+        position: absolute;
+         top:55px;
+         right: 5px;
+        
+        // max-width: 85%;
+        //height: 90%;
+    }
+    
+    
+    .Text-wrapper{
+        padding-top: 100px;
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .ThisIsMe{
+    
+        
+        position: relative;// the parent of the objects need to be relative
+        //margin-top: 90px;
+        //max-width: 80%;
+        //margin-top: 80px;
+        right: 10%;
+        display:flex;
+        justify-content: end;
+        top:30px;
+        //right: 200px;
+        z-index: 4;
+       
+    }
+    
+    
+    
+    .Search{
+        
+        position: absolute; //absolute can move anywhere 
+      
+        justify-content: center;
+        top: 0px;
+        left:80px;
+        width: 35%;
+        z-index: 5;
+        //display: none;
+        //justify-content: center;
+        //align-content:center;
+        //bottom:5000px;
+    }
+    
+    
+    .Info{
+        
+        position: absolute;
+        //display: flex;
+        //justify-content: center;
+        top: 80%;
+        left:300px;
+        z-index: 5;
+        width: 35%;
+        
+        //justify-content: center;
+        //align-content:center;
+        //bottom:5000px;
+    }
+    
+    // .background{
+    //     position:absolute;
+    //     top:100px;
+    //     left: 620px;
+    //     //right:150px;
+    //     z-index: 3;
+    
+    
+    // }
+    
+     .background_001{  
+        position:absolute;
+        top:100px;
+        left: 510px;
+        //right:150px;
+        z-index: 2;
+    
+    
+      }
+    
+    
+     .background_002{  
+        position:absolute;
+        top:120px;
+        left: 530px;
+        //right:150px;
+        z-index: 1;
+    
+    
+     }
+    
+    
+    
+     .background_003{  
+        position:absolute;
+        top:140px;
+        left: 550px;
+        //right:150px;
+        z-index: 0;
+    
+    
+     }
+    
+    
+    .background_004{  
+    
+        position:absolute;
+        top:160px;
+        left: 570px;
+        //right:150px;
+        z-index: -1;
+    
+    }
+    .footer{
+        position: relative;
+        bottom: 0px;
+    }
+    
+    .aboutPage_Text{
+        //position: absolute;
+        color: purple;
+        text-align: center;
+        font-size: 30px;
+    
+        &:hover,&:focus{
+         color: orange;  
+        }
+    }
+    
+    .save_001{
+        
+        left: 500px;
+        position: absolute;
+        bottom: 50px;
+       
+        
+        
+    
+    }
+    
+    .save_002{
+        
+        left: 700px;
+        position: absolute;
+        bottom: 50px;
+     
+        
+        
+    
+    }
+    
+    .save_003{
+        
+        left: 900px;
+        position: absolute;
+        bottom: 50px;
+     
+        
+        
+    
+    }
+    
+    .circle_001{
     position: absolute;
-    bottom: 50px;
-   
     
-    
-
-}
-
-.save_002{
-    
-    left: 700px;
-    position: absolute;
-    bottom: 50px;
- 
-    
-    
-
-}
-
-.save_003{
-    
-    left: 900px;
-    position: absolute;
-    bottom: 50px;
- 
-    
-    
-
-}
-
-.circle_001{
-position: absolute;
-
-left: 107px;
-top:10px;
-z-index: 6;
-}
-
-.circle_002{
-    position: absolute;
-    
-    left: 60px;
+    left: 107px;
     top:10px;
     z-index: 6;
     }
-
-.line{
-    position: absolute;
-    top: 50px;
-    z-index: 6;
-    left: 10px;
-}
-
-.gameboy{
-    position:absolute;
-    top:150px;
-    left: 230px;
-    width: 10%;
-    z-index: 7;
-}
-
-}
+    
+    .circle_002{
+        position: absolute;
+        
+        left: 60px;
+        top:10px;
+        z-index: 6;
+        }
+    
+    .line{
+        position: absolute;
+        top: 50px;
+        z-index: 6;
+        left: 10px;
+    }
+    
+    .gameboy{
+        position:absolute;
+        top:150px;
+        left: 230px;
+        width: 10%;
+        z-index: 7;
+    }
+    
+    }
