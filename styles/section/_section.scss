@@ -1,3 +1,9 @@
+
+:root{
+    --purple: rgba(96, 81, 163, 1)
+}
+
+
 @include respond('1440px'){
 
     @font-face {
@@ -13,13 +19,18 @@
     margin-top: 50px;
     justify-content: center;
      //width: 150%;
+     z-index: 8;
+     @media(max-width:431px){
+        margin-top: 50px;
+        z-index: 8;
+     }
 
 }
 .files{
 
     display: flex;
     justify-items: space;
-    
+    z-index: 9;
     //margin-left:30px ;
     
 
@@ -31,8 +42,8 @@
     position: relative;
     margin-bottom: 30px;
     
-    
-    //transition-duration:  2s;
+    z-index: +5;
+    transition-duration:  2s;
     &:hover,&:focus{
         top: -10px;
     }
@@ -49,4 +60,89 @@
    
 }
 
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+    top: 20px;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all .3s ease-in-out; 
+    transition: all .3s ease-in-out;
+   background-color: aliceblue;
+
+}
+
+
+@media(max-width:431px){
+   .hamburger{
+    display: block;
+    margin-top: 40px;
+   }
+   .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+   }
+
+   .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+   }
+
+   .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+   }
+
+   .files{
+    position: fixed;
+    display: flex;
+    top: -200%;
+    //top:70px;
+    gap:0;
+    flex-direction: column;
+    align-items: center;
+    
+     background-color: rgb(255, 203, 148);
+    // opacity: .5;
+    width:100%;
+    //padding-top: 200px;
+   // margin-top: 20px;
+
+    text-align: center;
+    transition: .8s;
+   }
+
+   .files_001{
+       // padding-bottom: 20px;
+        margin: 16px 0;
+        filter: brightness(100%); 
+   }
+
+   .files.active{
+    z-index: 8;
+    top: 30%;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    filter: brightness(100%);
+    font-family:zig;
+   }
+
+
+   .content.active{
+    filter: brightness(50%);
+   }
+
+   .grid_container.active{
+    filter: brightness(50%);
+   }
+
+   .VideoPlayer.active{
+    filter: brightness(50%);
+   }
 }

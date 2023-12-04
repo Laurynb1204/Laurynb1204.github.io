@@ -12,6 +12,10 @@
    padding: 20px;
    margin-top: 50px;
    gap: 30px;
+
+   @media(max-width:431px){
+    grid-template-columns: auto ;
+   }
    
 }
 
@@ -25,6 +29,8 @@
        &.window{
         z-index: 1;
        }
+
+
     }
 
 
@@ -54,13 +60,18 @@
     width:100%;
     height: 100%;
     transition:scale .3s ease;
+    @media(max-width:431px){
+        top: 20px;
+        //width:140%;
+        //top:5px;
+       }
     img{
         //opacity: 0;
         //background-color: black;
         width: 100%;
         object-fit: cover;
         height: 90%;
-     
+        
     }
 }
 
@@ -74,7 +85,7 @@
 
 
     .middle_text{
-        transition: .3s ease;
+        transition: .3    s ease;
         opacity: 0;
         position: absolute;
         top:50%;
@@ -103,6 +114,10 @@
     background-color: rgb(96, 81, 163);
     color:rgb(224, 215, 226);
     padding: 2%;
-    font-size: 70px
+    font-size: 70px;
+    @media(max-width:431px){
+        font-size: 30px;
+       }
+    
 
 }

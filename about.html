@@ -5,34 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>website</title>
     <link rel="stylesheet" href="./styles/index.css" />
-    <script src="./index.js" defer></script>
+    <script src="./about.js" defer></script>
   </head>
   <body>
 
     
 
-    <div class="folders">
+		<nav class="folders">
+			
       <div class="files">
-        <div class="files">
-          <a href="index.html" class="file_001">
-            <img src="items for website/updated_items/Asset 5 3.png" />
-            <span class="Home_text">Home</span>
+        <a href="index.html" class="file_001">
+          <img src="items for website/updated_items/Asset 9 1.png" />
+          <span class="Home_text">Home</span>
          </a>
-  
-          <a href="work.html" class="file_001">
-            <img src="items for website/updated_items/Asset 5 3.png" />
-            <span class="Home_text">Work</span>
-          </a>
-  
-          <a href="about.html" class="file_001">
-            <img src="items for website/updated_items/Asset 9 1.png" />
-            <span class="Home_text">About</span>
-          </a>
-        </div>
-      </div>
+    
+        <a href="work.html" class="file_001">
+          <img src="items for website/updated_items/Asset 5 3.png" />
+          <span class="Home_text">Work</span>
+        </a>
+    
+        <a href="about.html" class="file_001">
+          <img src="items for website/updated_items/Asset 5 3.png" />
+          <span class="Home_text">About</span>
+        </a>
+    
     </div>
 
-    <div>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+  </nav>
+
+
+
 
 
       
@@ -55,13 +63,16 @@
 
               <div class="gameboy">
                 <img src="items for website/gameboy_003_image.png">
-              </div>
+              </div> 
           
+              <div class="planet">
+              <img src="items for website/planet.png"/>
+              </div>
       
         
     
 
-        <div class="background background_001">
+       <div class="background background_001">
           <img src="items for website/updated_items/Rectangle 118.svg" />
         </div>
 
@@ -83,21 +94,35 @@
       
 
         <div class="Search">
-          <img src="items for website/updated_items/OBJECTS.png" />
+          <div class="search_pic">
+          <img src="items for website/Group 12.png" />
+        </div>
+            <div class="container_type">
+          <h1> <span class="auto-type"></span></h1>
+          </div>
         </div>
 
         <div class="ThisIsMe">
+
+          
           <div class="Info">
             <img src="items for website/updated_items/Layer 4.png" />
-            <div class="Pic-wrapper">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ex dolore aperiam laborum possimus sunt, perspiciatis, nam quidem reprehenderit aliquid dolores sed. Tempore magni asperiores debitis facilis, nostrum iure eveniet!</div>
+            <div class="Text-wrapper">Hi, I am a Texas A&M University student working on my bachelor's in Visualization program. I hope to become a professional 3D modeler and 3D product designer.
+
+            </div>
           </div>
          
           <div class="window">
+            <div class="window-cont">
+            <img src="items for website/updated_items/Asset 1 7.svg" />
+          </div>
             <div class="circle_001">
-            <img src="items for website/updated_items/Ellipse 1.png">
+               <img src="items for website/updated_items/Ellipse 1.png">
             </div>
+            
+           
 
-            <div class="circle_002">
+             <div class="circle_002">
               <img src="items for website/updated_items/Ellipse 1.png">
               </div>
 
@@ -105,16 +130,27 @@
               <img src="items for website/updated_items/Line 1.svg">
             </div>
 
-            <div class="text-cont">
-              <img src="items for website/updated_items/Asset 1 7.svg" />
+
+              
               
               <div class="Pic-wrapper">
-            <img src="items for website/Frame 2.png"style="width:800px;height:510px;">
+            <img src="items for website/Frame 2.png">
               </div>
-            </div>
+
+
+
+
           </div>
         </div>
       </div>
-    </div>
+
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script>
+  var typed = new Typed(".auto-type",{
+    strings: ["This Is Me"],   typeSpeed:150,  backSpeed: 150, loop:true
+   })
+
+</script> 
   </body>
 </html>
