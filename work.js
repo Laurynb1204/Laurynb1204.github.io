@@ -30,9 +30,9 @@
     hamburger.classList.toggle("active");
     files.classList.toggle("active");
     body.classList.toggle("active");
-    //gridItem.classList.toggle("active");
+    gridItem.classList.toggle("active");
     //content.classList.toggle("active");
-    videoPlayer.classList.toggle("active");
+    //videoPlayer.classList.toggle("active");
 
   });
 

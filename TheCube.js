@@ -26,13 +26,15 @@
   const content = document.querySelector(".content");
   const gridItem= document.querySelector(".grid_container");
   const videoPlayer = document.querySelector(".VideoPlayer");
+  const contentWindow = document.querySelector(".content_window");
     hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
     files.classList.toggle("active");
-    body.classList.toggle("active");
+    contentWindow.classList.toggle("active");
+    //body.classList.toggle("active");
     //gridItem.classList.toggle("active");
     //content.classList.toggle("active");
-    videoPlayer.classList.toggle("active");
+    //videoPlayer.classList.toggle("active");
 
   });
 
@@ -43,4 +45,5 @@
     content.classList.remove("active");
     gridItem.classList.remove("active");
     videoPlayer.classList.remove("active");
+    contentWindow.classList.remove("active");
   }))
